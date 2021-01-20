@@ -11,10 +11,9 @@ options.add_argument("user-data-dir=C:\\Users\\ps5\\AppData\\Local\\Google\\Chro
 driver = webdriver.Chrome('chromedriver.exe', options=options)
 driver.get(item)
 while True:
-driver.find_element_by_xpath('//*[@id="pecr-cookie-banner-wrapper"]/div/div[1]/div/div[2]/button[1]').click() # checks for anything interupting the the atb such as "accept cookies or manage cookies" and gets rid of it to stop interuptions
-while True:
     try:
         # Code with possible error - error being that there's no add to cart button
+        driver.find_element_by_xpath('//*[@id="pecr-cookie-banner-wrapper"]/div/div[1]/div/div[2]/button[1]').click() # checks for anything interupting the the atb such as "accept cookies or manage cookies" and gets rid of it to stop interuptions
         driver.find_element_by_xpath('//*[@id="button--add-to-basket"]').click() # Looks for the 'add to cart button' using xpath
     except:
         driver.get(item) # If the atc button cannot be found, refresh until it is found
