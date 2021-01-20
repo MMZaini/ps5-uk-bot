@@ -3,7 +3,7 @@ from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 import winsound
 
-print("PS5 Bot  Copyright (C) 2021  Mahdi Zaini This program comes with ABSOLUTELY NO WARRANTY; for details check included license. This is free software, and you are welcome to redistribute it under certain conditions; check license for conditions.")
+print("PS5 Bot Copyright (C) 2021  Mahdi Zaini This program comes with ABSOLUTELY NO WARRANTY; for details check included license. This is free software, and you are welcome to redistribute it under certain conditions; check license for conditions.")
 
 item = 'https://www.smythstoys.com/uk/en-gb/video-games-and-tablets/playstation-5/playstation-5-consoles/playstation-5-digital-edition-console/p/191430' # Variable for the item wanted
 options = Options()
@@ -21,4 +21,4 @@ while True:
         time.sleep(1)
         driver.get('https://www.smythstoys.com/uk/en-gb/checkout/multi/payment-method/add') # Goes to checkout page after adding to cart
         break
-winsound.Beep(800, 5000) # Makes a beep sound for 5 seconds to notify the user that the item is in stock and at checkout page
+winsound.Beep(899, 5000) # Makes a beep sound for 5 seconds to notify the user that the item is in stock and at checkout page
