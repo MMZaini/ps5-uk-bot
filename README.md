@@ -30,7 +30,7 @@
 # Customisability
   -- Keep in mind, if you want to customise or change the code and use it your self, make sure to read the license before doing anything --
   
-  - You can really easily change the item you want to bot, here are some instructions on how to do it. (you only need common sense for this and make sure you read the license before distrubuting it or passing it off as your own!)
+  - You can really easily change the item you want to bot, here are some instructions on how to do it. (you only need common sense for this and make sure you read the license before distrubuting it!)
   
     1. Open the included ps5.py program in your prefered code editor, such as VScode, Sublime Text, ect.
     2. Find the 'item' variable, it's on line 6 from the top. Change the link inside the apostrophes (the '') to the link of the item you want to bot!
