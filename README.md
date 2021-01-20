@@ -36,4 +36,5 @@
     2. Find the 'item' variable, it's on line 6 from the top. Change the link inside the apostrophes (the '') to the link of the item you want to bot!
 
 # features to add
-
+  - (maybe) GUI
+  - More stores
