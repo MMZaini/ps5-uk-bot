@@ -3,7 +3,7 @@ from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 import winsound
 
-print("PS5 UK Bot Copyright (C) 2021  Mahdi Zaini This program comes with ABSOLUTELY NO WARRANTY; for details check included license. This is free software, and you are welcome to redistribute it under certain conditions; check license for conditions.")
+print("This program comes with ABSOLUTELY NO WARRANTY; for details check included license. This is free software, and you are welcome to redistribute it under certain conditions; check license for conditions.")
 
 item = 'https://www.johnlewis.com/sony-playstation-5-console-with-dualsense-controller/white/p5115192' # Variable for the item wanted
 options = Options()
